@@ -1,4 +1,5 @@
-A program is many things. It is a piece of text typed by a programmer, it is
+
+    A program is many things. It is a piece of text typed by a programmer, it is
 the directing force that makes the computer do what it does, it is data in the
 computer's memory, and, at the same time, it controls the actions performed
 on this memory. Analogies that try to compare programs to familiar objects
@@ -16,3 +17,4 @@ and it grows easily under our typing hands. But as a program grows, so does
 its complexity. The skill of programming is the skill of building programs that
 don't confuse the programmer. The best programs are those that manage to
 do something interesting while still being easy to understand.
+    
