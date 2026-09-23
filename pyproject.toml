@@ -1,16 +1,17 @@
 [project]
-name = "rag"
+name = "rag-from-scratch"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.12"
-dependencies = [
-    "chromadb>=1.5.9",
-    "ipykernel>=7.3.0",
-    "langchain>=1.4.0",
-    "langchain-community>=0.4.2",
-    "langchain-core>=1.6.1",
-    "pymupdf>=1.28.2",
-    "pypdf>=6.17.0",
-    "sentence-transformers>=6.0.1",
+authors = [
+    { name = "roy-ayush22", email = "ayush30085@gmail.com" }
 ]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+rag-from-scratch = "rag_from_scratch:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
